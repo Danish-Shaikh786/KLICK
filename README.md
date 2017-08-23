@@ -29,4 +29,7 @@ You can watch the video and get going.
   <dt>Place</dt>
   <dd>Mumbai - India<img width="20" height="20" src="data/India_Flag.png"></dd>
 </dl>
-<a href="https://github.com/Danish-Shaikh786/KLICK/edit/master/" class="btn">Download .zip</a>
+<section class="page-header">
+    <a href="https://github.com/Danish-Shaikh786/KLICK/edit/master/" class="btn">Download .zip</a>
+</section>
+
