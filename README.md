@@ -2,17 +2,17 @@
    Welcome to KLICK-The Screenshot App
 </h1>
 <p align="center">
-<img width="250" height="250" src="data/KLICK2.png">
+<img width="250" height="250" src="KLICK2.png">
 </p>
 <h2>About</h2>
 Testing the accuracy of the code is the most integral part of our work. Now that we save the screenshots too, there have been discussions/brainstorming on the easiest way to get this done.
-
+<p></p>
 Here it comes!
 Klick!
-
+<p></p>
 Trust me, saving screenshots using this app is as easy as it's name! 
 You can watch the video and get going. 
-
+<p></p>
 <strong>P.S. Installing this too does not require admin rights </strong>
 <h2>Salient Features</h2>
 <ol>
