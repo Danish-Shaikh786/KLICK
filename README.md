@@ -4,6 +4,7 @@
 <p align="center">
 <img width="250" height="250" src="data/KLICK2.png">
 </p>
+<h2>About</h2>
 Testing the accuracy of the code is the most integral part of our work. Now that we save the screenshots too, there have been discussions/brainstorming on the easiest way to get this done.
 
 Here it comes!
@@ -20,7 +21,7 @@ You can watch the video and get going.
 <li>It display the username of your system as a watermark on the screenshot.</li>
 <li>The screenshots are not over written even if you close the application and run it again at the later stage.</li>
 </ol>
-<h3 id="definition-lists-can-be-used-with-html-syntax">About</h3>
+<h2 id="definition-lists-can-be-used-with-html-syntax">Details</h2>
 <dl>
   <dt>Developer</dt>
   <dd>Danish Shaikh</dd>
