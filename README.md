@@ -21,5 +21,5 @@
   <dt>Published On</dt>
   <dd>August 2017</dd>
   <dt>Place</dt>
-  <dd>Mumbai - India</dd>
+  <dd><img width="20" height="20" src="data/India_Flag.png">Mumbai - India</dd>
 </dl>
