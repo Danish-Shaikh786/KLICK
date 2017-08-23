@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="KLICK.exe" version="1.0.0.3" publicKeyToken="b740f40455b8593b" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="KLICK2.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="KLICK" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="KLICK.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="KLICK.exe" size="856000">
+      <assemblyIdentity name="KLICK" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>j5on8GOtJkQYYIC6ev9srrLJ51FIHxLSM0DuzTBHmuI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="KLICK.exe.config" size="186">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>h0UeIdteCM29dGVw07LmHp593fPbh0IN11GyN3f2uRA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="KLICK.ico" size="248894">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>zJbLqrtE9/7b24gZBUc8HnRNztcI4fZAXw8nlcUo8Oo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="KLICK2.ico" size="370070">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>D2p+Xf3ROJ6P+V3EU8PAGNT9MUs094aJ4j50pQyHltU=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=PACKTPUB\danishs" issuerKeyHash="901a25ebec207f7df42d42f9f31efc0401e85e16" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>/JB3wsS+DEuQ5IeEW0taypIByOlP6XLUEXmLkKG/6F8=</DigestValue></Reference></SignedInfo><SignatureValue>hWPjV/A+nn4PJL3w46n96UN7P+4MiY0hDj/a11AROQQ4wz304hH3XT/tg5GosaJ1+c9waPETIuPll3b0CTN6XCRPqB/RcU1gPc3+1EH/CZPlNOk3/vlS+GiP9VQXKKckSDGsM087gP1c8YO/DAe7hyZfhToVDGiSdzsOvIDuBmM=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>5/kxpA2GXnJw0bjAGr/21Khm3P5dfLi3sn2svzeJ/g5Pn/rQkMbZTs4Os7prL78pmZz3jaXoshPXpjenicHmWdmZXtMQqc9+HzWcC8F4lu/qYNKsVi+O9k3cLJ6semPmrFQ4PLl7Rwnm8bLPz/+U4+ye4yyrMGRN3dUza6/+Sac=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="5fe8bfa1908b7911d472e94fe9c80192ca5a4b5b8487e4904b0cbec4c27790fc" Description="" Url=""><as:assemblyIdentity name="KLICK.exe" version="1.0.0.3" publicKeyToken="b740f40455b8593b" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=PACKTPUB\danishs</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>po0L/oIKo51fBGC+/ycItqX/qkjfMAf/7LWuogytJMY=</DigestValue></Reference></SignedInfo><SignatureValue>16NC/rwhTt2ka3YgWZdbjyeI/zuSitPje1ePNztZlmKu9fUTltXzyslY4z9J7jxKhRff6zfmh/oEg2CmlyUw64Sp4LXroLhEG7a0aISS6Hpxt73sZmmMMzuN/hXA/TtOEslMrSE4AzIQjiEGU7kUq/9CKfb3nJnK2JMvjo0WHLM=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>5/kxpA2GXnJw0bjAGr/21Khm3P5dfLi3sn2svzeJ/g5Pn/rQkMbZTs4Os7prL78pmZz3jaXoshPXpjenicHmWdmZXtMQqc9+HzWcC8F4lu/qYNKsVi+O9k3cLJ6semPmrFQ4PLl7Rwnm8bLPz/+U4+ye4yyrMGRN3dUza6/+Sac=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB2TCCAUKgAwIBAgIQceGwTypaDZBK87TgqgO4TDANBgkqhkiG9w0BAQsFADArMSkwJwYDVQQDHiAAUABBAEMASwBUAFAAVQBCAFwAZABhAG4AaQBzAGgAczAeFw0xNzA4MDIxNDIxNTBaFw0xODA4MDIyMDIxNTBaMCsxKTAnBgNVBAMeIABQAEEAQwBLAFQAUABVAEIAXABkAGEAbgBpAHMAaABzMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDn+TGkDYZecnDRuMAav/bUqGbc/l18uLeyfay/N4n+Dk+f+tCQxtlOzg6zumsvvymZnPeNpeiyE9emN6eJweZZ2Zle0xCpz34fNZwLwXiW7+pg0qxWL472Tdwsnqx6Y+asVDg8uXtHCebxss/P/5Tj7J7jLKswZE3d1TNrr/5JpwIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAM2kYcQVYRdZ4I2PVJ1AcUGiEprvstVbzWpuU4nd5JvoINX2xr5MOHhvIIc76PtsWe9t0du1hZvmYJpPxywS+zcVBDfBwODQ327+8V4+U0YXXRduQcy/p3pcpf7Vmxs6uQrySaNo/g0VkcZNOVsYzebilprYVLvbhbjZqzYzzJfN</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
