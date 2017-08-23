@@ -27,5 +27,5 @@ You can watch the video and get going.
   <dt>Published On</dt>
   <dd>August 2017</dd>
   <dt>Place</dt>
-  <dd><img width="20" height="20" src="data/India_Flag.png">Mumbai - India</dd>
+  <dd>Mumbai - India<img width="20" height="20" src="data/India_Flag.png"></dd>
 </dl>
