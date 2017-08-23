@@ -35,3 +35,7 @@ You can watch the video and get going.
 
 You rate this application and give your feedback or improvements at this [Feedback Form](https://docs.google.com/forms/d/e/1FAIpQLSfBVjN4RHm3iUpvClvIlr3SqikgwbnvkuwveXA-yca5M9K7Cg/viewform)
 
+If you find this application useful than please donate at [Being Human Foundation](http://www.beinghumanonline.com/give.html)
+<p align="center">
+<img src="http://munkashaf.blogspot.in/2011/05/munkashaf-ray-of-light-supports-salmans.html">
+</p>
