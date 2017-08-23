@@ -14,3 +14,10 @@
 <li>It display the username of your system as a watermark on the screenshot.</li>
 <li>The screenshots are not over written even if you close the application and run it again at the later stage.</li>
 </ol>
+<h3>About<h3>
+** Developer **
+        Danish Shaikh
+** Published On **
+        August 2017
+** Place **
+        Mumbai - India 
