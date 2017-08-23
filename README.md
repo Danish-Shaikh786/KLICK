@@ -14,5 +14,4 @@
 <li>It display the username of your system as a watermark on the screenshot.</li>
 <li>The screenshots are not over written even if you close the application and run it again at the later stage.</li>
 </ol>
-<Description>
-[![Watch the video](https://raw.github.com/GabLeRoux/WebMole/master/ressources/WebMole_Youtube_Video.png)](http://youtu.be/vt5fpE0bzSY)
+<h3>Description></h3>
