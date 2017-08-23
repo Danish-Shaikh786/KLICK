@@ -29,7 +29,8 @@ You can watch the video and get going.
   <dt>Place</dt>
   <dd>Mumbai - India<img width="20" height="20" src="data/India_Flag.png"></dd>
 </dl>
-<section class="page-header">
-    <a href="https://github.com/Danish-Shaikh786/KLICK/" class="btn">Download .zip</a>
-</section>
+
+## Feedback and Suggestions
+
+You rate this application and give your feedback or improvements at this [Feedback Form](https://docs.google.com/forms/d/e/1FAIpQLSfBVjN4RHm3iUpvClvIlr3SqikgwbnvkuwveXA-yca5M9K7Cg/viewform)
 
